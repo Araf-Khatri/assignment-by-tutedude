@@ -81,8 +81,8 @@ const CoursesEnrolled = () => {
         </span>
       </div>
       <div className="courses--section">
+        <div className="abso-div"></div>
         <div className="courses">
-          <div className="abso-div"></div>
           {totalCoursesEnrolled.map((dataObj, i) => (
             <CourseInfo key={i} data={dataObj} />
           ))}
