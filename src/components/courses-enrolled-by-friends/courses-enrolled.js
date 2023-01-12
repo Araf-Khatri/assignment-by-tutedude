@@ -82,14 +82,12 @@ const CoursesEnrolled = () => {
       </div>
       <div className="courses--section">
         <div className="courses">
+          <div className="abso-div"></div>
           {totalCoursesEnrolled.map((dataObj, i) => {
             console.log(dataObj);
             return <CourseInfo key={i} data={dataObj} />;
           })}
         </div>
-        <div
-          className="abso-div"
-        ></div>
       </div>
     </Fragment>
   );

@@ -48,3 +48,9 @@
 .rm-margin {
   margin: 0 !important;
 }
+
+@media(min-width: 65.25em) {
+  .frview-section {
+    margin-bottom: 6rem;
+  }
+}
