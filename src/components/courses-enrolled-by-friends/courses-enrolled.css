@@ -15,7 +15,7 @@
   font-size: 2.4rem;
 }
 
-.courses--section {
+ .forAbso {
   margin-bottom: 6rem;
   min-width: 20rem;
   border-radius: 2rem;
@@ -46,9 +46,13 @@
     width: max-content;
   }
   .courses--section {
-    position: relative;
     overflow: hidden;
     overflow-x: scroll;
+  }
+  .forAbso {
+    position: relative;
+    border-radius: 2rem;
+    overflow: hidden;
   }
 
   .abso-div {

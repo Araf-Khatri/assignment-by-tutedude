@@ -80,6 +80,8 @@ const CoursesEnrolled = () => {
           ({totalCoursesEnrolled.length})
         </span>
       </div>
+      <div className="forAbso">
+
       <div className="courses--section">
         <div className="abso-div"></div>
         <div className="courses">
@@ -87,7 +89,9 @@ const CoursesEnrolled = () => {
             <CourseInfo key={i} data={dataObj} />
           ))}
         </div>
+        </div>
       </div>
+        
     </Fragment>
   );
 };
