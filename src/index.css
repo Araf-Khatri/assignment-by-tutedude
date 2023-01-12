@@ -16,7 +16,7 @@
 }
 
 html {
-    font-size: 59.5%;
+    font-size: 55.5%;
 }
 
 body {
@@ -28,7 +28,7 @@ body {
 
 @media (min-width: 25em) {
   html {
-    font-size: 62.5%;
+    font-size: 62.5% !important;
 
   }
 }
