@@ -1,0 +1,20 @@
+.card-content {
+  display: flex;
+  flex-direction: column;
+}
+
+.card-content--heading {
+  color: var(--primary-color);
+  font-size: 1.4rem;
+}
+
+.card-content--text {
+  font-size: 3.2rem;
+  font-weight: 500;
+}
+
+.withdraw-balance--btn {
+  font-weight: 500;
+  color: #ffffff;
+  background-color: var(--primary-color);
+}

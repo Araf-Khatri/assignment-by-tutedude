@@ -1,0 +1,74 @@
+.course-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 22.8rem;
+  width: 100%;
+  min-width: 34rem;
+  max-width: 35.8rem;
+  color: #ffffff;
+  padding: 2rem;
+  background-image: var(--gradient);
+  border-radius: 2rem;
+}
+
+.enroll {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 0.5rem;
+}
+
+.friend-name {
+  font-weight: 700;
+}
+
+.total-courses {
+  display: flex;
+  gap: 1rem;
+  flex-direction: column;
+}
+
+.courses-heading {
+  font-size: 1.4rem;
+  font-weight: 500;
+}
+
+.technologies {
+  display: flex;
+  height: 8rem;
+  flex-wrap: wrap;
+  gap: 1rem;
+  overflow-y: scroll;
+}
+
+.technology {
+  padding: 0.5rem 1rem;
+  box-shadow: inset 0 0 0 0.1rem var(--scroll-bar-color);
+  border-radius: 2rem;
+}
+
+.tech-name {
+  font-size: 1.4rem;
+}
+
+.amount {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+.amount p {
+  margin-top: 0.3rem;
+}
+
+.technologies::-webkit-scrollbar-track {
+  border-radius: 1rem;
+}
+
+.technologies::-webkit-scrollbar {
+  width: 0.5rem;
+}
+
+.technologies::-webkit-scrollbar-thumb {
+  border-radius: 0.25rem;
+  background-color: var(--scroll-bar-color);
+}

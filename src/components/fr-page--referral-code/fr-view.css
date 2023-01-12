@@ -1,0 +1,50 @@
+.frview-section {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  justify-content: space-between;
+  /* gap: 4.2rem; */
+  margin-top: 1rem;
+  margin-bottom: 3.4rem;
+}
+
+.referral-code--section {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.frview-referral--p {
+  color: var(--primary-color);
+}
+
+.fr-page-code {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  max-width: 15.3rem;
+  padding: 1.3rem;
+  box-shadow: inset 0 0 0 0.2rem #dfdfdf;
+  border-radius: 1rem;
+}
+
+.fr-text {
+  font-size: 1.6rem;
+  font-weight: 500;
+}
+.fr--balance-card {
+  width: 15.5rem;
+  justify-self: end;
+  border-radius: 2rem;
+  box-shadow: 0 0.2rem 0.8rem 0 var(--primary-color-opacity25);
+}
+
+.fr--card {
+  display: grid;
+  /* min-width: 15.5rem; */
+  padding: 1.5rem 2.5rem;
+  /* background: #eeee; */
+}
+
+.rm-margin {
+  margin: 0 !important;
+}

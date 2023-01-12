@@ -1,0 +1,29 @@
+.info--section {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  width: 100%;
+  max-width: 35.5rem;
+}
+
+.icon {
+  display: grid;
+  place-items: center;
+  padding: 1.6rem;
+  background-color: #d9d9d925;
+  border-radius: 50%;
+}
+
+.info--heading {
+  font-weight: 500;
+}
+
+.info--description {
+  color: #4d4d4d;
+}
+
+@media (min-width: 53.3em) {
+  .how-does-it-work--steps {
+    grid-template-columns: repeat(2, 1fr);
+  } 
+}

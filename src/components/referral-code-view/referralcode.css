@@ -1,0 +1,33 @@
+.referral-code--section {
+  margin-top: 3rem;
+}
+
+.referral-code {
+  position: relative;
+  display: grid;
+  place-items: center;
+  width: 100%;
+  max-width: 35.8rem;
+  padding: 1.5rem 6.5rem;
+  grid-template-columns: repeat(auto-fit, minmax(3rem, 1fr));
+  background-color: #ffffff;
+  font-size: 2rem;
+  font-weight: 500;
+  border-radius: 1rem;
+}
+.referral-code::before {
+  position: absolute;
+  content: "";
+  width: 100%;
+  height: 100%;
+  padding: 1px;
+  background-image: var(--gradient);
+  border-radius: 1.1rem;
+  z-index: -1;
+}
+
+@media (min-width: 65.25em) {
+  .referral-code {
+    margin-left:  0;
+  }
+}

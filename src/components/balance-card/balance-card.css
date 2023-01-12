@@ -1,0 +1,28 @@
+.balance-card {
+  display: grid;
+  justify-content: space-between;
+  grid-template-columns: repeat(2, 1fr);
+  row-gap: 3rem;
+  width: 100%;
+  min-width: 15rem;
+  max-width: 48.6rem;
+  padding: 2rem;
+  margin-top: 3rem;
+  border-radius: 2rem;
+  background-color: #ffffff;
+  box-shadow: 0 0.3rem 10rem 0 #00000015;
+}
+
+.withdraw-balance--btn {
+  width: 18rem;
+  height: 4rem;
+  margin-bottom: 0.5rem;
+  border-radius: 2rem;
+  align-self: end;
+  grid-column: 2;
+}
+
+.cardtext--align-end, .withdraw-balance--btn {
+  justify-self: end;
+}
+
