@@ -12,6 +12,12 @@
   padding: 1.6rem;
   background-color: #d9d9d925;
   border-radius: 50%;
+  box-sizing: content-box;
+}
+.icon img[alt="rupee logo"] {
+  width: 3.2rem;
+  height: 3.2rem;
+  transform: scale(0.75);
 }
 
 .info--heading {
