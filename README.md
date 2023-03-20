@@ -1,4 +1,7 @@
-# Assignment Project
+## Assignment Project
 
-> Project given by Tutedude with figma design\
-> I have to build it with ReactJS
+[Website link](https://ak-assignment-by-tutedude.netlify.app/)
+
++ It was a internship test.
++ Converted given Figma design to ReactJS website.
++ Built a reusable & clean code.
