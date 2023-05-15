@@ -14,7 +14,8 @@ const Navbar = ({ children }) => {
         }`}
       >
         <nav className="navbar">
-          <img className="logo" src="./imgs/tutedude.png" alt="tutedude logo" />
+          <div className="logo"></div>
+          {/* <img className="logo" src="./imgs/tutedude.png" alt="tutedude logo" /> */}
           <button className="profile--btn navbar-one">
             <p>ProfileName</p>
             <img src="/imgs/svgs/chevron-down.svg" alt="icon" />
